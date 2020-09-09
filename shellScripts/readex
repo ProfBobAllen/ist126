@@ -2,8 +2,8 @@
 # Bob Allen
 
 echo -n "Prompt: "
-read cmd arg1 arg2 therestofthem
-echo Your command was: $cmd
+read arg0 arg1 arg2 therestofthem
+echo Your command was: $arg0
 echo You typed $arg1
 echo You typed $arg2
 echo You typed $therestofthem
