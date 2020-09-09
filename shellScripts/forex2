@@ -1,0 +1,13 @@
+#!/bin/bash
+#forex2
+#  This is another example of the FOR contruct in the bash,
+#  that references values entered on the command line.
+#  Like.....
+#              forex2  one  two   3   four
+#
+for x in $*
+do
+ echo $x
+ sleep 1
+done
+
