@@ -1,0 +1,45 @@
+libde265_x86_la-sse.lo: sse.cc /usr/include/stdc-predef.h \
+ ../../libde265/x86/sse.h ../../libde265/acceleration.h \
+ /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/assert.h \
+ ../../libde265/x86/sse-motion.h ../../libde265/x86/sse-dct.h \
+ ../../config.h /usr/lib/gcc/x86_64-linux-gnu/6/include/cpuid.h
+
+/usr/include/stdc-predef.h:
+
+../../libde265/x86/sse.h:
+
+../../libde265/acceleration.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/assert.h:
+
+../../libde265/x86/sse-motion.h:
+
+../../libde265/x86/sse-dct.h:
+
+../../config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/6/include/cpuid.h:
