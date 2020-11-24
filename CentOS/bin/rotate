@@ -1,0 +1,7 @@
+sudo convert -resize 500x500\! $1 $1
+for angle in `seq 36 36 360`
+do
+	sudo convert -rotate "$angle" -background black $1 r$angle.jpg
+done
+sudo convert r*.jpg rotate.gif
+sudo rm r*.jpg

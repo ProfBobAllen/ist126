@@ -1,0 +1,10 @@
+sudo convert -resize 250x250\! $1 $1
+sudo mkdir tmp
+for tilt in `seq 10 10 360`
+do
+  sudo convert -rotate "$tilt" $1 tmp/tmp$tilt$1
+done
+cd tmp
+sudo convert *$1 ../spin.gif
+cd ..
+sudo rm -r tmp

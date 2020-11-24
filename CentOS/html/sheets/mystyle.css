@@ -1,0 +1,29 @@
+div {
+border: 10px double black;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+p {
+padding: 25px;
+}
+
+a:link {
+color: #fcba03;
+}
+
+a:visited {
+color: #56b368;
+}
+
+a:hover {
+color: red;
+}
+
+h1 {
+
+}
+
+body {
+background-color: #f57842;
+}

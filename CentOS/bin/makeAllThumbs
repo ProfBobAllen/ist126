@@ -1,0 +1,5 @@
+files=`ls *`
+for pic in $files
+do
+  makethumb $pic 50
+done

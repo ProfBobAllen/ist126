@@ -1,0 +1,2 @@
+files=`ls e*`
+sudo convert $files animate.gif

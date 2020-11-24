@@ -1,0 +1,12 @@
+sudo dnf update
+sudo dnf install git
+sudo dnf install httpd
+sudo systemctl enable httpd
+sudo systemctl start httpd
+sudo firewall-cmd --zone=public --permanent --add-service=http
+sudo  firewall-cmd --reload
+sudo dnf install epel-release
+sudo dnf config-manager --set-enabled PowerTools
+sudo dnf update
+sudo dnf install ImageMagick ImageMagick-devel
+

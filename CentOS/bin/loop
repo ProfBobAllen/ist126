@@ -1,0 +1,4 @@
+for value in `seq 0 10 100`
+do
+	echo $value
+done

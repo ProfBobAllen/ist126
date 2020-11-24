@@ -1,0 +1,7 @@
+sudo convert -resize 500x500\! $1 $1
+for height in `seq 50 50 500`
+do
+	sudo convert -resize 500x$height\! $1 h$height.jpg
+done
+sudo convert h*.jpg compress.gif
+sudo rm h*.jpg

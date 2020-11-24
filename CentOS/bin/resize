@@ -1,0 +1,5 @@
+files=`ls *`
+for pic in $files
+do
+  sudo convert -resize 500x500 $pic $pic
+done
